@@ -8,6 +8,7 @@ namespace UserRegistration
         {
             Validators validator = new Validators();
             Console.WriteLine(validator.ValidateFirstName("Shireen"));
+            Console.WriteLine(validator.ValidateLastName("Mariyam"));
         }
     }
 }
