@@ -11,7 +11,7 @@ namespace UserRegistration
             Console.WriteLine(validator.ValidateLastName("Mariyam"));
             Console.WriteLine(validator.ValidateEmailId("abc.xyz6@bl.co.in"));
             Console.WriteLine(validator.ValidateMobileNumber("91 7349312654"));
-            Console.WriteLine(validator.ValidatePassword("Ka12asgtka"));
+            Console.WriteLine(validator.ValidatePassword("Ka12#@aska"));
             Console.ReadKey();
         }
     }
