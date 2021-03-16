@@ -39,5 +39,12 @@ namespace UnitTestUserRegistration
             bool result = validate.ValidateMobileNumber("91 7349312654");
             Assert.AreEqual(expectedResult, result);
         }
+        [TestMethod]
+        public void Test_Password()
+        {
+            bool expectedResullt = true;
+            bool result = validate.ValidatePassword("Ka12@93ddr");
+            Assert.AreEqual(expectedResullt, result);
+        }
     }
 }
