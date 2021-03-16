@@ -24,5 +24,13 @@ namespace UnitTestUserRegistration
             bool result = validate.ValidateLastName("Mariyam");
             Assert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        public void Test_EmailId()
+        {
+            bool expectedResult = true;
+            bool result = validate.ValidateEmailId("abc.xyz@gmail.co.in");
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
