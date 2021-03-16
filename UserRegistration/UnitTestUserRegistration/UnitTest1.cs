@@ -32,5 +32,12 @@ namespace UnitTestUserRegistration
             bool result = validate.ValidateEmailId("abc.xyz@gmail.co.in");
             Assert.AreEqual(expectedResult, result);
         }
+        [TestMethod]
+        public void Test_MobileNumber()
+        {
+            bool expectedResult = true;
+            bool result = validate.ValidateMobileNumber("91 7349312654");
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
